@@ -1,49 +1,126 @@
-*{
+
+ @import "section.scss";
+ @import "header.scss";
+ @import "footer.scss";
+
+* {
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
+    box-sizing: border-box; 
+    font-family:sans-serif;
+  }
+
+   header{
+     border:2px solid green;
+     text-align: center;
+     padding-top:2rem;
+     
+   }
+
+.headerpicture{
+  width:110%;
+  height:auto;
+  align-items: center;
+
+}
+  
+  
+.container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: right;
+}
+.article1{
+  text-align: right;
+    font-size: 1.2rem;
+    padding-top: 3rem;
+    font-weight: 100;
 }
 
-header{
-    text-align: center;
-    font-size: x-large;
-    background-image: url(pictures2/header.png.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width:500px;
+  .container2{
+  display:flex;
+  border: 8px solid black;
+  height:40vh;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content: space-between;
 }
+.container3{
+  display:flex;
+  border: 8px solid black;
+  height:40vh;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content: space-between;
+}
+  // section {
+  //   display: flex;
+  //   justify-content: center;
+  //   flex-direction: column;
+  //   position: relative; }
+  
+ 
+  
+  .blackbox {
+    background-color: grey;
+    height: 300px; 
+  }
+  
+  .picture4{
+    width:100%;
+  }
 
+.container5{
+  position: relative;
+  text-align: center;
+  color: black;
  
 
-    )
 }
-section{
+.article5{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:black;
+  padding:50px;
+
+
+}
+.header5{
+position: absolute;
+  top:20%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color:black;
+ 
+
+}
+
+  
+  footer {
     display:flex;
-    justify-content: center;
-    flex-direction: column;
-    position: relative;
-}
-
-.article1{
-    background-color:pink;
-
-}
-.blackbox{
-    background-color:grey;
-    height:600px;
-    
-}
-
-.article{
-       background-image: url(pictures2/Q1_newsletter-02.png);
-       background-repeat: no-repeat;
-       
-    
-}
-
-footer{
+    justify-content: space-around;
+    flex-flow: row;
+    padding:80px;
     background-color:grey;
     color:white;
-    line-height: 150%;
+    
+  }
+  
+  .footer1{
+    display: inline-block;
+    
+  }
+  .footer2{
+    display:inline-block;
+    margin:40px;
+  
+  }
+  
+    
 
-}
+    
+  
