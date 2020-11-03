@@ -1,437 +1,480 @@
-@import "main.scss";
-@import "footer.scss";
-@import "container.scss";
-
-
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; 
-   }
-    
-   body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width:100%;
-    overflow-x:hidden;
-}
-    
-   /* header */
-    
-   header {
-    background-image: url(pictures2/header.png.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: repeat;
-    width: auto;
-    height: 60vw; 
-   }
-    
-   .Voodoo {
-    margin-top: 30px;
-    padding-top: 10px;
-    text-align: center;
-    font-size: 2rem; 
-   }
-    
-   /* Hey Guys */
-    
-   .flex-container-1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: right;
-    
-   }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
-   .headline{
-       display:flex;
-       max-width:700px;
-       /* margin: 0 auto; */
-       flex-direction: column;
-       
-   }
-   
-
-.flex-container-2{
- max-width: 900px;
- margin: 0 auto;
- padding: 1rem 1rem 1rem 1rem;
- justify-content: column;
-
-}
-   
-.section-1{
-    display:flex;
-    align-items:flex-end;
-    justify-content: center;
-}
-  .section-1 p {
-    width: 100%;
-   }
-    
-   .img-right{
-    margin-top: -9rem;
-    
-     
-   }
-    
-   .youtubability { 
-    margin-bottom: 30px;
-   }
-   
-
-   .greybox{
-       background-color:rgb(33, 35, 39);
-       height:300px;
-
-   }
-
-   .flex-container-3{
-    display:flex; 
-    flex-direction: row;
-    height:500px;
-    align-items:center;
-    text-align: right;
-    max-width: 940px;
-  
-
-   }
-
-   .img-left{
-       padding-left:10rem;
-   }
-
-   .section-2{
-    text-align:right;
-    padding-left:2rem;
-    padding-right:4rem;
-    line-height:1.7rem;
-  
-   
-   }
-
-.section-3{
- text-align: left;
- /* width:700px; */
- padding-left:13rem;
- padding-right:2rem;
- padding-top:6rem;
- padding-bottom:5rem;
- max-width: 60rem;
- line-height:1.7rem;
-    
-
+html, body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
+   overflow-x:hidden;
 }
 
-.flex-container-4{
-    position: relative;
-    text-align:center;
 
+/* header */
+header {
+  background-image: url(pictures2/header.png.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  width: auto;
+  height: 60vw; }
 
-}
- .section-4{
-     position: absolute;
-     top: 50%;
-     left: 50%;
-     transform: translate(-50%, -50%);
-     margin:1rem;
- }
+.Voodoo {
+  margin-top: 30px;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 2rem; }
 
- .tipoftheweek{
-     width: 100%;
-     height:auto;
- }
-
- footer {
-    display: flex;
-    justify-content: space-around;
-    flex-flow: row;
-    padding: 80px;
-    background-color: rgb(33, 35, 39);
-    color: white; }
-  
-  .footer1 {
-    display: inline-block; }
-  
-  .footer2 {
-    display: inline-block;
-    margin: 40px;
-
-  }
-
-  /*small phones*/
-
-  @media (max-width: 400px) {
-
-
-}
-html, body{
-    overflow-x:hidden;
-    background-color:red
-}
-
-p {
-font-size: 0.5rem;}
+/* Hey Guys */
+.flex-container-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: right; }
 
 .headline {
- margin-bottom: 5rem;
- margin-top:3rem;
- padding-right: 7rem;
- 
+  display: flex;
+  max-width: 700px;
+  margin: 0 auto;
+  flex-direction: column; }
 
-}
-.flex-container-1{
-    padding-right:1rem;
-    padding-top:2rem;
-    height:10vh;
-    align-items:right;
+  h2{
+      padding-right:2rem;
+      padding-bottom:2rem;
+      padding-top:1rem;
+      font-size:2.7rem;
+      margin:-2rem;
+  }
 
-   
-   
-}
+  .p-1{
+      width:570px;
+  }
 
+/* Hey Guys */
 .section-1 {
-flex-direction: row;
-align-items: left;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center; }
+
+.section-1 p {
+  width: 50%; }
+
+.img-right {
+  margin-top: -9rem;
+  width: 50%; 
 }
 
-.flex-container-2{
- max-width: 800px;
- margin: 0 auto;
+.youtubability {
+  margin-bottom: 30px;
+ }
 
-
-}
-   
-}
-  .section-1 p {
-    width: 50%;
-    padding:1rem 1rem 1rem 1rem;
-   }
-    
-   .img-right{
-    margin-top: -9em;
-    width: 50%;
-    padding:2rem 0 5rem 2rem;
-
-     
-   }
-    
-   .youtubability { 
-    margin-bottom: 30px;
-    padding:1rem 1rem 1rem 1rem;
-
-   }
- 
-
-.flex-container-3{
-    display:flex; 
-    flex-direction: row;
-    height:500px;
-    align-items:center;
-    text-align: right;
-  
-
+.flex-container-2 {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 150px 0 80px; 
 }
 
-.img-left{
-    padding-left:1rem;
-    padding-top:10rem;
-    width:50%;
+.greybox {
+  background-color: #212327;
+  height: 300px; 
 }
 
-.section-2{
-    
-    text-align: right;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-top:10rem;
-    line-height: 1.3rem;
-    font-size:0.8rem;
-    width:50%;
-
-}
-.section-3{
-    font-size:0.8rem;
-    padding:5rem 5rem 5rem 5rem;
-    align-items: left;
-  
-    line-height:1.3rem;
+.flex-container-3 {
+  display: flex;
+  flex-direction: row;
+  height: 500px;
+  align-items: center;
+  text-align: right;
+  max-width: 1050px; 
 }
 
-.flex-container-4{
-    justify-content: center;
-
-}
-
-.section-4{
-font-size:0.8rem;
-padding: -5rem 5rem -4rem 2rem;
-max-width: 30rem;
-
-}
-
-.tipoftheweek{
-    height:20rem;
-}
-
-
-.footer{
-    padding: -3rem 0 0 3rem;
-
-
-}
-
-.footer1{
-    font-size:0.8rem;
+.img-left {
+  padding-left: 16rem; 
   
 }
 
-.footer2{
-    font-size:0.8rem;
-    padding-top:1rem;
-    padding-left:4rem;
-    
+.section-2 {
+  text-align: right;
+  padding-left:2rem;
 
+
+  
+}
+
+.section-3 {
+  text-align: left;
+  width:920px;
+  padding-left: 20rem;
+  padding-top:5rem;
+ }
+
+.flex-container-4 {
+  position: relative;
+  text-align: center;
+ }
+
+.section-4 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 1rem; 
+}
+
+.tipoftheweek {
+  width: 100%;
+  height: auto;
+ }
+
+ h4{
+     font-size:2.5rem;
+     padding-bottom:2rem;
+     padding-top:2rem;
+ }
+
+ .p-4{
+     font-size:1rem;
+     line-height:1.7rem;
+ }
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row;
+  padding: 80px;
+  background-color: #212327;
+  color: white; }
+
+.footer1 {
+  display: inline-block; 
+}
+
+.footer2 {
+  display: inline-block;
+  margin: 40px; 
 }
 
 
 
-    /*tablet=767, 479 mobile, 980 ipad, 1440 mac/PC*/
-@media (min-width: 600px) {
 
-    html, body{
-        overflow-x:hidden;
-        background-color:blue;
-    }
+  @media screen and (max-width: 992px) {
+      html, body{
+          background-color:green;
+          overflow-x: hidden;
+      }
 
-    p {
-    font-size: 0.8rem;}
+      p{
+          font-size:0.9rem;
+      }
 
-    .headline {
-     margin-bottom: 7rem;
-     padding-left: 2rem;
-    
-    }
-    .flex-container-1{
-        padding-right:7rem;
-        padding-top:5rem;
-        height:27vh;
-        justify-content: center;
-       
-    }
+      .youtubability{
+          padding-left:2rem;
+      }
 
-    .section-1 {
-    flex-direction: row;
-    align-items: left;
-    }
-
-    .flex-container-2{
-     max-width: 800px;
-     margin: 0 auto;
-    
-   
-    }
-       
-    }
       .section-1 p {
-        width: 50%;
-        padding:1rem 1rem 1rem 1rem;
+        padding-left:2rem;
        }
-        
-       .img-right{
-        margin-top: -9em;
-        width: 50%;
-        padding:2rem 0 5rem 2rem;
-   
-         
-       }
-        
-       .youtubability { 
-        margin-bottom: 30px;
-        padding:1rem 1rem 1rem 1rem;
 
-       }
-     
-
-    .flex-container-3{
-        display:flex; 
-        flex-direction: row;
-        height:500px;
-        align-items:center;
-        text-align: right;
-      
-   
-    }
-
-    .img-left{
+      .section-2{
+        padding-right:2rem; 
         padding-left:1rem;
-        padding-top:10rem;
-        width:50%;
-    }
+       
+      }
 
-    .section-2{
-        
-        text-align: right;
-        padding-left: 2rem;
-        padding-right: 2rem;
-        padding-top:10rem;
-        line-height: 1.3rem;
-        font-size:0.8rem;
-        width:50%;
-   
+      .img-left{
+        padding-left:1rem;
     }
     .section-3{
+        padding-left:2.5rem;
+        padding-right:2rem;
+        width:600px;
+
+    }
+
+
+    h4{
+        font-size:1.5rem;
+    }
+
+    .p-4{
         font-size:0.8rem;
-        padding:5rem 5rem 5rem 5rem;
-        align-items: left;
-      
-        line-height:1.3rem;
+        width:500px;
     }
 
-    .flex-container-4{
-        justify-content: center;
-  
-    }
-
-    .section-4{
-   font-size:0.8rem;
-   padding: -5rem 5rem -4rem 2rem;
-   max-width: 30rem;
-  
-    }
-
-    .tipoftheweek{
-        height:20rem;
-    }
-
-
+    
+    
     .footer{
-        padding: -3rem 0 0 3rem;
-
-
+        padding:1rem 1rem 1rem 1rem;
+    
     }
 
     .footer1{
+        padding-left:1rem;
+        padding-right:1rem;
+        margin:auto;
         font-size:0.8rem;
-      
+
     }
 
     .footer2{
-        font-size:0.8rem;
-        padding-top:1rem;
-        padding-left:4rem;
-        
-
+ 
+    padding-top:1rem;
+    padding-left:4rem;
+    margin:auto;
+    font-size:0.8rem;
     }
 
-    @media (min-width: 1200px) {
-
-
-
-    /* Extra large devices (large desktops, 1200px and up) */
-   @media (min-width: 1440px) 
-
-   
-
     
+    
+
+
+      
+
+    @media screen and (max-width: 600px) {
+        body{
+            background-color:red;
+            overflow-x: hidden;
+        }
+        .Voodoo{
+           margin-top:1rem;
+           margin-bottom:2rem;
+           
+        }
+
+        p{
+            font-size:0.8rem;
+        }
+
+
+        h2{
+            padding-right:6rem;
+        }
+
+        .p-1{
+            width:450px;
+        
+        }
+
+        .youtubability { 
+            padding-left:3rem;
+           }
+
+        .section-1 p {
+            padding-left:3rem;
+           }
+           .img-right{
+            margin-top: -6rem;
+            
+           }
+
+        .img-left{
+            padding-left:-1rem;
+            width:45%
+        }
+
+        .section-2{
+           padding:2rem -3rem 1rem 3rem;
+           
+        
+           
+           }
+
+           .section-3{
+            padding:2rem 2rem 2rem 2rem;
+            width:500px;
+            
+           }
+
+           .tipoftheweek{
+             width: 100%;
+             height:18rem;
+            }
+
+           
+            .section-4{
+                padding-top:0rem;
+                font-size:0.8rem;
+                line-height:1rem;
+                
+                
+            }
+
+            h4{
+                font-size:1rem;
+                padding:1rem 1rem 1rem 1rem;
+            }
+
+            .p-4{
+                width:400px;
+            }
+            footer {
+                
+                justify-content: space-between
+                }
+            
+            .footer1{
+                font-size:0.8rem;
+                
+            }
+
+            .footer2{
+                font-size:0.8rem;
+            }
+
+
+ 
+        @media screen and (max-width: 400px) {
+            body{
+                background-color:purple;
+                overflow-x: hidden;
+            }
+
+            p{
+                font-size:0.7rem;
+            }
+
+            
+             .Voodoo{
+             margin-top: 0.7rem;
+             font-size: 1.2rem;
+                }
+
+                .flex-container-1 {
+                    text-align: right;
+                    
+                   }
+                    
+                   .headline{
+                     padding-left:1rem;
+           
+                   }
+                   h2{
+                       font-size:1rem;
+                       padding-right:9rem;
+                   }
+                   .p-1{
+                       font-size:0.7rem;
+                       padding-right:5rem;
+                       width:370px;
+
+                   }
+                    
+                     
+                   }
+                   .flex-container-2{
+                    /*max-width: 800px;*/
+                    margin: 0 auto;
+                    padding:2rem 1rem 2rem 1rem;
+                    ;
+                   
+                }
+
+                .section-1{
+                    width:500px;
+                    font-size:2rem;
+                    text-align:left;
+                    padding-right:5rem;
+
+                }
+
+                .img-right{
+                    margin-top: -2rem;
+                    padding-right:3rem;
+                    
+                }
+        
+
+                    .greybox{
+                        height:200px;
+                    }
+                    .flex-container-3{
+                        display:flex; 
+                        flex-direction: column;
+                        height:450px;
+                        align-items:left;
+                      
+                       
+                    }
+
+                    .img-left{
+                    padding:1rem 1rem 1rem 1rem;
+                     
+                    }
+                 
+                    .section-2{
+                     text-align:right;
+                     padding-right:3rem;
+                     line-height:1rem;
+                    
+                  
+                
+                    }
+                 
+                 .section-3{
+                
+                        text-align: left;
+                        width: 370px;
+                        padding-left: 1rem; 
+                        padding-right:1rem;
+                        margin:auto;
+                        line-height:1rem;
+                    
+                    }
+                  
+                 
+                 .tipoftheweek{
+                    width: 100%;
+                    height:14rem;
+
+                }
+                .flex-container-4{
+                    width:100%;
+                     margin:auto;
+                
+                }
+                 .section-4{
+                     font-size:0.7rem;
+                    margin:auto;    
+                     
+                 }
+
+                 h4{
+                     padding-top:6rem;
+                 
+                 }
+                 .p-4{
+                     padding-bottom: 3rem;
+                     font-size:0.7rem;
+                     line-height:1rem;
+                     width:300px;
+                    
+                 }
+
+                 footer {
+                    display: flex;
+                    justify-content: space-around;
+                    flex-flow: row;
+                    padding:1rem 1rem 1rem 1rem;
+                    background-color: rgb(33, 35, 39);
+                    color: white; }
+                  
+                  .footer1 {
+                    padding:-3rem 1rem 1rem 1rem;
+                    font-size:0.7rem;
+                    margin:auto;
+                }
+                  
+                  .footer2 {
+                    padding:1rem 1rem 1rem 2rem;
+                    font-size:0.7rem;
+                    margin:auto;
+                
+                  }
+                 
+
+
+
+
+                   
+            
+
