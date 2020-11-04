@@ -1,18 +1,49 @@
 /* Hey Guys */
-    
 .flex-container-1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: right;
-    
-   }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: right; 
+}
 
-    /*p1*/
-    
-   .headline{
-       display:flex;
-       max-width:700px;
-       flex-direction: column;
-       
-   }
+.headline {
+  display: flex;
+  max-width: 700px;
+  margin: 0 auto;
+  flex-direction: column; 
+}
+
+  h2{
+      padding-right:2rem;
+      padding-bottom:2rem;
+      padding-top:1rem;
+      font-size:2.7rem;
+      margin:-2rem;
+}
+
+  .p-1{
+      width:570px;
+}
+
+/* Hey Guys */
+.section-1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center; 
+}
+
+.section-1 p {
+  width: 50%; 
+  line-height:1.7rem;
+}
+
+.img-right {
+  margin-top: -7rem;
+  width: 50%; 
+  padding-left:3rem;
+}
+
+.youtubability {
+  margin-bottom: 30px;
+}
+

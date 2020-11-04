@@ -1,17 +1,28 @@
-.flex-container-4{
-    position: relative;
-    text-align:center;
-
+.flex-container-4 {
+  position: relative;
+  text-align: center;
 }
- .section-4{
-     position: absolute;
-     top: 50%;
-     left: 50%;
-     transform: translate(-50%, -50%);
-     margin:1rem;
- }
 
- .tipoftheweek{
-     width: 100%;
-     height:auto;
- }
+.section-4 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+   margin: 1rem; 
+}
+ /*Tip of the Week*/
+.tipoftheweek {
+  width: 100%;
+  height: auto;
+}
+
+ h4{
+  font-size:2.5rem;
+  padding-bottom:2rem;
+  padding-top:2rem;
+}
+
+ .p-4{
+  font-size:1rem;
+  line-height:1.7rem;
+}
