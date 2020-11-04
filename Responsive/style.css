@@ -1,528 +1,382 @@
+/* header */
+header {
+  background-image: url(pictures2/header.png.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  width: auto;
+  height: 60vw; }
+
+.Voodoo {
+  margin-top: 30px;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 2rem; }
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row;
+  padding: 80px;
+  background-color: #212327;
+  color: white; }
+
+.footer1 {
+  display: inline-block; }
+
+.footer2 {
+  display: inline-block;
+  margin: 40px; }
+
+/* Hey Guys */
+.flex-container-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: right; }
+
+.headline {
+  display: flex;
+  max-width: 700px;
+  margin: 0 auto;
+  flex-direction: column; }
+
+h2 {
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+  font-size: 2.7rem;
+  margin: -2rem; }
+
+.p-1 {
+  width: 570px; }
+
+/* Hey Guys */
+.section-1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center; }
+
+.section-1 p {
+  width: 50%;
+  line-height: 1.7rem; }
+
+.img-right {
+  margin-top: -7rem;
+  width: 50%;
+  padding-left: 3rem; }
+
+.youtubability {
+  margin-bottom: 30px; }
+
+.flex-container-2 {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 150px 0 80px; }
+
+.greybox {
+  background-color: #212327;
+  height: 400px; }
+
+.flex-container-2 {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 150px 0 80px; }
+
+.greybox {
+  background-color: #212327;
+  height: 400px; }
+
+.flex-container-3 {
+  display: flex;
+  flex-direction: row;
+  height: 500px;
+  align-items: center;
+  text-align: right;
+  max-width: 1050px; }
+
+.img-left {
+  padding-left: 5rem; }
+
+/*own container*/
+.section-2 {
+  text-align: right;
+  padding-right: 3rem;
+  padding-left: 2rem;
+  line-height: 1.7rem;
+  width: 700px; }
+
+.section-3 {
+  text-align: left;
+  width: 1000px;
+  padding-left: 13rem;
+  padding-top: 5rem;
+  line-height: 1.7rem; }
+
+.flex-container-4 {
+  position: relative;
+  text-align: center; }
+
+.section-4 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 1rem; }
+
+/*Tip of the Week*/
+.tipoftheweek {
+  width: 100%;
+  height: auto; }
+
+/*title*/
+h4 {
+  font-size: 2.5rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem; }
+
+/*the text*/
+.p-4 {
+  font-size: 1rem;
+  line-height: 1.7rem; }
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; 
-}
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html, body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  overflow-x: hidden; }
+
+@media screen and (max-width: 992px) {
   html, body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif; 
-     overflow-x:hidden;
-}
-  
-  
-  /* header */
-    header {
-    background-image: url(pictures2/header.png.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: repeat;
-    width: auto;
-    height: 60vw; 
-}
-  
-    .Voodoo {
-    margin-top: 30px;
-    padding-top: 10px;
-    text-align: center;
-    font-size: 2rem; 
-}
-  
-  /* Hey Guys */
-  .flex-container-1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: right; 
-}
-  
-  .headline {
-    display: flex;
-    max-width: 700px;
-    margin: 0 auto;
-    flex-direction: column; 
-}
-  
-    h2{
-        padding-right:2rem;
-        padding-bottom:2rem;
-        padding-top:1rem;
-        font-size:2.7rem;
-        margin:-2rem;
-}
-  
-    .p-1{
-        width:570px;
-}
-  
-  /* Hey Guys */
+    background-color: green;
+    overflow-x: hidden; }
+  h2 {
+    padding-right: 4rem; }
+  p {
+    font-size: 1rem; }
+  .youtubability {
+    padding-left: 2rem; }
+  .section-1 p {
+    padding-left: 2rem;
+    line-height: 1.4rem; }
+  .section-2 {
+    padding-right: 2rem;
+    padding-left: 1rem;
+    line-height: 1.4rem; }
+  .img-left {
+    padding-left: 1rem; }
+  .section-3 {
+    padding-left: 10rem;
+    padding-right: 4rem;
+    width: 870px;
+    line-height: 1.4rem; }
+  h4 {
+    font-size: 1.5rem; }
+  .p-4 {
+    font-size: 1rem;
+    width: 500px; }
+  .footer {
+    padding: 1rem 1rem 1rem 1rem; }
+  .footer1 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+    font-size: 1rem; }
+  .footer2 {
+    padding-top: 1rem;
+    padding-left: 4rem;
+    margin: auto;
+    font-size: 1rem; } }
+
+@media screen and (max-width: 797px) {
+  body {
+    background-color: pink; }
+  h2 {
+    padding-right: 6rem; }
+  p {
+    font-size: 0.9rem; }
+  .section-3 {
+    padding: 1rem 5rem 1rem 5rem;
+    width: 700px;
+    margin: auto; }
+  .section-2 {
+    width: 500px;
+    padding: 4rem 2rem 4rem 1rem; }
+  h4 {
+    padding-top: 3rem; }
+  .p-4 {
+    width: 370px;
+    line-height: 1rem;
+    padding-bottom: 2rem; } }
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: red;
+    overflow-x: hidden; }
+  .Voodoo {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-size: 1.3rem; }
+  p {
+    font-size: 0.8rem; }
+  h2 {
+    padding-right: 6rem;
+    font-size: 1.8rem; }
+  .p-1 {
+    width: 450px;
+    padding-right: 5rem; }
   .section-1 {
     display: flex;
-    align-items: flex-start;
-    justify-content: center; 
-}
-  
+    align-items: center;
+    flex-direction: column; }
   .section-1 p {
-    width: 50%; 
-    line-height:1.7rem;
-}
-  
+    width: 400px;
+    line-height: 1.3rem;
+    padding: 1rem 4rem 4rem 1rem; }
   .img-right {
     margin-top: -7rem;
-    width: 50%; 
-    padding-left:3rem;
-}
-  
+    width: 70%;
+    padding-right: 3rem;
+    padding-top: 3rem; }
   .youtubability {
-    margin-bottom: 30px;
-}
-  
+    margin-bottom: 1px;
+    padding-top: 1rem;
+    padding-left: 6.5rem; }
   .flex-container-2 {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 150px 0 80px; 
-  
-}
-  
-  .greybox {
-    background-color: #212327;
-    height: 400px; 
-}
-  
+    max-width: 700px;
+    padding: 20px 0 80px; }
   .flex-container-3 {
     display: flex;
-    flex-direction: row;
-    height: 500px;
+    flex-direction: column;
+    height: 650px;
     align-items: center;
-    text-align: right;
-    max-width: 1050px; 
-}
-  
+    text-align: center; }
   .img-left {
-    padding-left: 8rem; 
-    
-}
-  
+    padding-left: -1rem;
+    padding-top: 1rem;
+    width: 50%; }
   .section-2 {
-    text-align: right;
-    padding-right:3rem;
-    line-height:1.7rem;
-   
-}
-  
+    padding: 0rem 2rem 0rem 1rem;
+    width: 400px;
+    margin: auto;
+    height: 550px; }
   .section-3 {
-    text-align: left;
-    width:920px;
-    padding-left: 15rem;
-    padding-top:5rem;
-    line-height:1.7rem;
-}
-  
-  .flex-container-4 {
-    position: relative;
-    text-align: center;
-   }
-  
-  .section-4 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-     margin: 1rem; 
-}
-  
+    padding: 6rem 2rem 0rem 1rem;
+    width: 430px;
+    margin: auto;
+    height: 400px; }
   .tipoftheweek {
     width: 100%;
-    height: auto;
-}
-  
-   h4{
-    font-size:2.5rem;
-    padding-bottom:2rem;
-    padding-top:2rem;
-}
-  
-   .p-4{
-    font-size:1rem;
-    line-height:1.7rem;
-}
-  
+    height: 18rem; }
+  .section-4 {
+    padding-top: 0rem;
+    font-size: 0.7rem; }
+  h4 {
+    font-size: 1rem;
+    padding: 1rem 1rem 1rem 1rem; }
+  .p-4 {
+    width: 370px;
+    line-height: 1rem;
+    font-size: 0.8rem; }
+  footer {
+    padding: 50px; }
+  .footer1 {
+    font-size: 0.8rem; }
+  .footer2 {
+    font-size: 0.8rem; } }
+
+@media screen and (max-width: 400px) {
+  body {
+    background-color: purple;
+    overflow-x: hidden; }
+  p {
+    font-size: 0.8rem; }
+  .Voodoo {
+    margin-top: 0.7rem;
+    font-size: 1.2rem; }
+  .flex-container-1 {
+    text-align: right; }
+  .headline {
+    padding-left: 1rem; }
+  h2 {
+    font-size: 1rem;
+    padding-right: 10rem;
+    padding-top: 2rem; }
+  .p-1 {
+    font-size: 0.7rem;
+    padding-right: 5rem;
+    width: 390px; }
+  .flex-container-2 {
+    /*max-width: 800px;*/
+    margin: 0 auto;
+    padding: 0rem 1rem 2rem 1rem; }
+  .section-1 {
+    width: 450px;
+    text-align: left;
+    padding-right: 8.5rem;
+    padding-left: 1.5rem;
+    margin: auto; }
+  .section-1 p {
+    line-height: 1rem;
+    width: 380px; }
+  .p-2 {
+    font-size: 0.8rem; }
+  .img-right {
+    margin-top: -5rem;
+    padding-right: 3rem;
+    width: 100%; }
+  .greybox {
+    height: 200px; }
+  .flex-container-3 {
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    align-items: left; }
+  .img-left {
+    padding: 1rem 1rem 1rem 1rem; }
+  .section-2 {
+    text-align: right;
+    padding-right: 6rem;
+    line-height: 1rem; }
+  .section-3 {
+    text-align: left;
+    width: 370px;
+    padding-top: 6rem;
+    padding-left: 1rem;
+    padding-right: 5rem;
+    margin: auto;
+    line-height: 1rem; }
+  .tipoftheweek {
+    width: 100%;
+    height: 14rem; }
+  .flex-container-4 {
+    width: 100%;
+    margin: auto; }
+  .section-4 {
+    font-size: 0.7rem;
+    margin: auto; }
+  h4 {
+    padding-top: 6rem; }
+  .p-4 {
+    padding-bottom: 3rem;
+    font-size: 0.7rem;
+    line-height: 0.8rem;
+    width: 240px; }
   footer {
     display: flex;
     justify-content: space-around;
     flex-flow: row;
-    padding: 80px;
+    padding: 1rem 1rem 1rem 1rem;
     background-color: #212327;
-    color: white; 
-}
-  
+    color: white; }
   .footer1 {
-    display: inline-block; 
-}
-  
+    padding: -3rem 1rem 1rem 1rem;
+    font-size: 0.7rem;
+    margin: auto; }
   .footer2 {
-    display: inline-block;
-    margin: 40px; 
-}
-  
-  
-  
-  
-    @media screen and (max-width: 992px) {
-        html, body{
-        background-color:green;
-        overflow-x: hidden;
-}
-  
-        p{
-        font-size:0.9rem;
-        }
-  
-        .youtubability{
-        padding-left:2rem;
-        }
-  
-        .section-1 p {
-        padding-left:2rem;
-        line-height:1.4rem;
-         }
-  
-        .section-2{
-        padding-right:2rem; 
-         padding-left:1rem;
-         line-height:1.4rem;
-        }
-  
-        .img-left{
-        padding-left:1rem;
-         }
-
-         .section-3{
-        padding-left:2.5rem;
-        padding-right:2rem;
-        width:650px;
-        line-height:1.4rem;
-         }
-  
-  
-        h4{
-        font-size:1.5rem;
-        }
-  
-        .p-4{
-        font-size:0.8rem;
-        width:500px;
-        }
-  
-      
-      
-      .footer{
-        padding:1rem 1rem 1rem 1rem;
-        }
-  
-      .footer1{
-        padding-left:1rem;
-        padding-right:1rem;
-        margin:auto;
-        font-size:0.8rem;
-        }
-  
-      .footer2{
-      padding-top:1rem;
-      padding-left:4rem;
-      margin:auto;
-      font-size:0.8rem;
-      }
-  
-      
-      
-  
-  
-        
-  
-      @media screen and (max-width: 600px) {
-          body{
-              background-color:red;
-              overflow-x: hidden;
-            }
-            
-          .Voodoo{
-             margin-top:1rem;
-             margin-bottom:2rem;
-             font-size:1.3rem;
-             
-          }
-  
-          p{
-              font-size:0.8rem;
-          }
-
-          h2{
-              padding-right:6rem;
-              font-size:1.8rem;
-          }
-  
-          .p-1{
-              width:450px;
-              padding-right:5rem;
-          
-          }
-
-          .section-1 {
-            display: flex;
-            align-items:center;
-            flex-direction: column;
-            
-        }
-          
-          .section-1 p {
-            width: 400px; 
-            line-height:1.3rem;
-            padding:1rem 4rem 4rem 1rem;
-            
-        }
-          
-          .img-right {
-            margin-top: -7rem;
-            width: 50%; 
-            padding-left:3rem;
-            
-        }
-          
-          .youtubability {
-            margin-bottom: 1px;
-            padding-top:3rem;
-            padding-left:2rem;
-            
-        }
-          
-          .flex-container-2 {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 150px 0 80px; 
-          
-        }
-
-             
-             .flex-container-3 {
-                display: flex;
-                flex-direction: column;
-                height: 700px;
-                align-items: center;
-                text-align: center;
-             }
-                
-
-             
-          .img-left{
-              padding-left:-1rem;
-              padding-top:7rem;
-              width:35%;
-          }
-  
-          .section-2{
-             padding:0rem 2rem 7rem 2rem;
-             width:400px;
-             margin:auto;
-          
-             
-             }
-             .section-3{
-              padding:0rem 5rem 5rem 5rem;
-              width:500px;
-              margin:auto;
-              
-              
-             }
-  
-             .tipoftheweek{
-               width: 100%;
-               height:18rem;
-              }
-  
-             
-              .section-4{
-                  padding-top:0rem;
-                  font-size:0.8rem;
-                  line-height:1rem;
-                   
-              }
-  
-              h4{
-                  font-size:1rem;
-                  padding:1rem 1rem 1rem 1rem;
-              }
-  
-              .p-4{
-                  width:400px;
-              }
-              footer {
-                  
-                  justify-content: space-between
-                  }
-              
-              .footer1{
-                  font-size:0.8rem;
-                  
-              }
-  
-              .footer2{
-                  font-size:0.8rem;
-              }
-  
-  
-   
-          @media screen and (max-width: 400px) {
-              body{
-                  background-color:purple;
-                  overflow-x: hidden;
-              }
-  
-              p{
-                  font-size:0.7rem;
-              }
-  
-              
-               .Voodoo{
-               margin-top: 0.7rem;
-               font-size: 1.2rem;
-                  }
-  
-                  .flex-container-1 {
-                      text-align: right;
-                      
-                     }
-                      
-                     .headline{
-                       padding-left:1rem;
-             
-                     }
-                     h2{
-                         font-size:1rem;
-                         padding-right:9rem;
-                     }
-                     .p-1{
-                         font-size:0.7rem;
-                         padding-right:5rem;
-                         width:370px;
-  
-                     }
-                      
-                       
-                     }
-                     .flex-container-2{
-                      /*max-width: 800px;*/
-                      margin: 0 auto;
-                      padding:0rem 1rem 2rem 1rem;
-                    
-                     
-                  }
-  
-                  .section-1{
-                      width:450px;
-                      text-align:left;
-                      padding-right:6rem;
-                      margin:auto;
-                    
-                    
-                  }
-
-                  .p-2{
-                    font-size:10px;
-                  }
-
-              
-  
-                  .img-right{
-                      margin-top: -2rem;
-                      padding-right:3rem;
-                      
-                  }
-          
-  
-                      .greybox{
-                          height:200px;
-                      }
-                      .flex-container-3{
-                          display:flex; 
-                          flex-direction: column;
-                          height:450px;
-                          align-items:left;
-                        
-                         
-                      }
-  
-                      .img-left{
-                      padding:1rem 1rem 1rem 1rem;
-                       
-                      }
-                   
-                      .section-2{
-                       text-align:right;
-                       padding-right:6rem;
-                       line-height:1rem;
-                      
-                    
-                  
-                      }
-                   
-                   .section-3{
-                  
-                          text-align: left;
-                          width: 370px;
-                          padding-left: 1rem; 
-                          padding-right:5rem;
-                          margin:auto;
-                          line-height:1rem;
-                      
-                      }
-                    
-                   
-                   .tipoftheweek{
-                      width: 100%;
-                      height:14rem;
-  
-                  }
-                  .flex-container-4{
-                      width:100%;
-                       margin:auto;
-                  
-                  }
-                   .section-4{
-                       font-size:0.7rem;
-                      margin:auto;    
-                       
-                   }
-  
-                   h4{
-                       padding-top:6rem;
-                   
-                   }
-                   .p-4{
-                       padding-bottom: 3rem;
-                       font-size:0.7rem;
-                       line-height:1rem;
-                       width:240px;
-                      
-                   }
-  
-                   footer {
-                      display: flex;
-                      justify-content: space-around;
-                      flex-flow: row;
-                      padding:1rem 1rem 1rem 1rem;
-                      background-color: rgb(33, 35, 39);
-                      color: white; }
-                    
-                    .footer1 {
-                      padding:-3rem 1rem 1rem 1rem;
-                      font-size:0.7rem;
-                      margin:auto;
-                  }
-                    
-                    .footer2 {
-                      padding:1rem 1rem 1rem 2rem;
-                      font-size:0.7rem;
-                      margin:auto;
-                    }
-                  
-                    
+    padding: 1rem 1rem 1rem 2rem;
+    font-size: 0.7rem;
+    margin: auto; } }
